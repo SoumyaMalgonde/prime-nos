@@ -15,7 +15,7 @@ int isprime(int);
 
 int isprime(int n)
 {
-for(int i=0;i<pow(n,0.5);i++)
+for(int i=2;i<pow(n,0.5);i++)
 if(n%i==0)
 return 0;
 return 1;
