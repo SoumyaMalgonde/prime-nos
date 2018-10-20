@@ -1,5 +1,6 @@
 #include <iostream.h>
 #include<math.h>
+#include<ctype.h>
 int isprime(int);
 
 
