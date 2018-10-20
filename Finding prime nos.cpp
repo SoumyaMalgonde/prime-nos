@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream.h>
 #include<math.h>
 int isprime(int);
 
@@ -8,9 +8,9 @@ int isprime(int);
  	int n;
  	cin>>n;
  	for(int i=2;i<=n;i++)
- 	if(isprime(n))
+ 	if(isprime(i))
  	cout<<i<<endl;
- 	
+ return 0;
  }
 
 int isprime(int n)
